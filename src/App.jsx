@@ -38,7 +38,7 @@ class App extends Component {
             password:event.target.value
         })
     }
-
+    
     onSubmit(event){
         event.preventDefault()
 
@@ -58,6 +58,8 @@ class App extends Component {
             password: ''
         })
     }
+
+
     render(){
         return (
             <div>
@@ -70,6 +72,7 @@ class App extends Component {
                                 value={this.state.fullName}
                                 className='form-control form-group'
                             />
+
 
                             <input type = 'text'
                                 placeHolder='Userame'
@@ -92,7 +95,7 @@ class App extends Component {
                                 className='form-control form-group'
                             />
 
-                            <input type='submit' className='btn btn-danger btn-block' value='Submit'/>
+                            <input type='submit' className='btn btn-danger btn-block' value='Sign Up'/>
                         </form>
                     </div>
                 </div>
