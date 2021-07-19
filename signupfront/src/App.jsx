@@ -9,7 +9,7 @@ import loggedIn from "./Pages/loggedIn"
 
 function App() {
     return (
-        <div className="App ">
+        <div className="App">
             <Router>
                 <Switch>
                     <Route exact path="/login" component={login} />
